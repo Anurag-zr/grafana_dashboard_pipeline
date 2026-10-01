@@ -1,0 +1,48 @@
+sources:
+
+  - source_name: IM_Incident_data
+    source_system: "IM_Incident"
+    source_type: event
+    file_path: "./data/IM_Incident_data_updated.csv"
+    poll_interval: "1d"
+    enabled: true
+    id_column: "Incident_ID"
+    date_column: "Created_Date"
+    column_mapping:
+      status: Incident_Status
+      category: Category
+      owner: Analyst
+
+
+  - source_name: Incident_GRC_data
+    source_system: "GRC"
+    source_type: metric
+    file_path: "./data/Incident_GRC_data.csv"
+    poll_interval: "1d"
+    enabled: true
+    date_column: "Date"
+    period_days: 7
+    period_anchor: end
+    metric_mode: wide
+    metric_columns:
+      - "SIRT_Reported"
+      - "EDR"
+      - "LogRhythm"
+      - "Sentinel"
+      - "Incident_Reported_GRC"
+  
+  
+  - source_name: TM_TFA_data
+    source_system: "TrendMicro"
+    source_type: metric
+    file_path: "./data/TM_TFA_data.csv"
+    poll_interval: "15s"
+    enabled: true
+    date_column: "Date"
+    period_days: 7
+    period_anchor: end
+    metric_mode: long
+    dimension_column: "Usecase"
+    value_column: "Triggers"
+    rank_column: "Rank"
+    row_key_column: "RowKey"

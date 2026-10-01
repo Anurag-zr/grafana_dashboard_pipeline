@@ -1,0 +1,921 @@
+2026-09-30 12:00:30 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-09-30 12:00:30 | INFO     | __main__ | This is an info message
+2026-09-30 12:00:30 | WARNING  | __main__ | This is a warning message
+2026-09-30 12:00:30 | ERROR    | __main__ | This is an error message
+2026-09-30 15:44:25 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-09-30 15:50:03 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-09-30 15:50:03 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-09-30 15:50:03 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-09-30 15:50:03 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-09-30 15:50:03 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-09-30 15:50:03 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-09-30 15:50:03 | INFO     | app.core.config_loader | Global settings loaded | db=localhost:5432/csv_pipeline_db | log_level=INFO
+2026-09-30 18:07:16 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-09-30 18:07:16 | INFO     | app.core.config_loader | Global settings loaded | db=localhost:5432/csv_pipeline_db | log_level=INFO
+2026-09-30 18:07:16 | INFO     | app.core.db | Database engine initialized for localhost:5432/csv_pipeline_db
+2026-09-30 18:07:16 | INFO     | app.core.db | Database connection test succeeded.
+2026-09-30 18:18:32 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-09-30 18:18:32 | INFO     | app.core.config_loader | Global settings loaded | db=localhost:5432/csv_pipeline_db | log_level=INFO
+2026-09-30 18:18:32 | INFO     | app.core.db | Database engine initialized for localhost:5432/csv_pipeline_db
+2026-09-30 18:18:32 | INFO     | app.extract.watermark_store | No watermark found for 'TEST_SOURCE'; starting from 0.
+2026-09-30 18:18:32 | INFO     | app.extract.watermark_store | Watermark updated for 'TEST_SOURCE' -> 42
+2026-09-30 18:18:32 | INFO     | app.extract.watermark_store | Watermark updated for 'TEST_SOURCE' -> 100
+2026-09-30 18:22:18 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-09-30 18:22:18 | INFO     | app.core.config_loader | Global settings loaded | db=localhost:5432/csv_pipeline_db | log_level=INFO
+2026-09-30 18:22:18 | INFO     | app.core.db | Database engine initialized for localhost:5432/csv_pipeline_db
+2026-09-30 18:22:18 | INFO     | app.extract.watermark_store | Watermark updated for 'TEST_SOURCE' -> 42
+2026-09-30 18:22:18 | INFO     | app.extract.watermark_store | Watermark updated for 'TEST_SOURCE' -> 100
+2026-09-30 18:54:16 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-09-30 18:54:16 | INFO     | app.core.config_loader | Global settings loaded | db=localhost:5432/csv_pipeline_db | log_level=INFO
+2026-09-30 18:54:16 | INFO     | app.core.db | Database engine initialized for localhost:5432/csv_pipeline_db
+2026-09-30 18:54:16 | INFO     | app.extract.watermark_store | Watermark updated for 'TEST_SOURCE' -> 42
+2026-09-30 18:54:16 | INFO     | app.extract.watermark_store | Watermark updated for 'TEST_SOURCE' -> 100
+2026-10-01 11:26:04 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 11:26:04 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 11:26:04 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 11:26:04 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 11:26:04 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 11:26:04 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 11:26:04 | INFO     | app.extract.csv_extractor | Extracted 257 new row(s) for 'IM_Incident_data' (watermark=0 -> 257)
+2026-10-01 11:26:04 | INFO     | app.extract.csv_extractor | No new rows for 'IM_Incident_data' (watermark=257, total_rows=257)
+2026-10-01 11:28:24 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 11:28:24 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 11:28:24 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 11:28:24 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 11:28:24 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 11:28:24 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 11:28:24 | INFO     | app.extract.csv_extractor | Extracted 257 new row(s) for 'IM_Incident_data' (watermark=0 -> 257)
+2026-10-01 11:28:24 | INFO     | app.extract.csv_extractor | No new rows for 'IM_Incident_data' (watermark=257, total_rows=257)
+2026-10-01 11:28:24 | INFO     | app.extract.csv_extractor | Extracted 9 new row(s) for 'Incident_GRC_data' (watermark=0 -> 9)
+2026-10-01 11:28:24 | INFO     | app.extract.csv_extractor | No new rows for 'Incident_GRC_data' (watermark=9, total_rows=9)
+2026-10-01 11:28:24 | INFO     | app.extract.csv_extractor | Extracted 45 new row(s) for 'TM_TFA_data' (watermark=0 -> 45)
+2026-10-01 11:28:24 | INFO     | app.extract.csv_extractor | No new rows for 'TM_TFA_data' (watermark=45, total_rows=45)
+2026-10-01 12:01:18 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 12:01:18 | INFO     | app.core.config_loader | Global settings loaded | db=localhost:5432/csv_pipeline_db | log_level=INFO
+2026-10-01 12:01:18 | INFO     | app.core.db | Database engine initialized for localhost:5432/csv_pipeline_db
+2026-10-01 12:01:18 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 12:01:18 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 12:01:18 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 12:01:18 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 12:01:18 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 12:01:18 | INFO     | app.extract.csv_extractor | Extracted 257 new row(s) for 'IM_Incident_data' (watermark=0 -> 257)
+2026-10-01 12:01:18 | INFO     | app.load.raw_loader | Created raw table 'raw_im_incident_data' with columns: ['Incident_ID', 'Incident_Status', 'Analyst', 'Created_Date', 'Category', 'Affected_Business_Unit', 'Detection_SLA', 'Response_SLA']
+2026-10-01 12:01:19 | INFO     | app.load.raw_loader | Loaded 257 row(s) into 'raw_im_incident_data' (batch_id=48b2aa92-bfcd-4a7c-8862-9bba2afa038b)
+2026-10-01 12:01:19 | INFO     | app.extract.csv_extractor | Extracted 9 new row(s) for 'Incident_GRC_data' (watermark=0 -> 9)
+2026-10-01 12:01:19 | INFO     | app.load.raw_loader | Created raw table 'raw_incident_grc_data' with columns: ['SIRT_Reported', 'EDR', 'LogRhythm', 'Sentinel', 'Incident_Reported_GRC', 'Date']
+2026-10-01 12:01:19 | INFO     | app.load.raw_loader | Loaded 9 row(s) into 'raw_incident_grc_data' (batch_id=1e9b58c6-d8f7-4a84-ac38-892a05676842)
+2026-10-01 12:01:19 | INFO     | app.extract.csv_extractor | Extracted 45 new row(s) for 'TM_TFA_data' (watermark=0 -> 45)
+2026-10-01 12:01:19 | INFO     | app.load.raw_loader | Created raw table 'raw_tm_tfa_data' with columns: ['Usecase', 'Triggers', 'Date', 'Rank', 'RowKey']
+2026-10-01 12:01:19 | INFO     | app.load.raw_loader | Loaded 45 row(s) into 'raw_tm_tfa_data' (batch_id=b2aaf336-f77e-44d4-b592-27ddf1dc7a92)
+2026-10-01 12:20:54 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 12:20:54 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 12:20:54 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 12:20:54 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 12:20:54 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 12:20:54 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 12:20:54 | INFO     | app.extract.csv_extractor | Extracted 257 new row(s) for 'IM_Incident_data' (watermark=0 -> 257)
+2026-10-01 12:20:54 | INFO     | app.normalize.event_normalizer | Normalized 257 event row(s) for 'IM_Incident_data'
+2026-10-01 12:22:40 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 12:22:40 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 12:22:40 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 12:22:40 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 12:22:40 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 12:22:40 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 12:22:40 | INFO     | app.extract.csv_extractor | Extracted 257 new row(s) for 'IM_Incident_data' (watermark=0 -> 257)
+2026-10-01 12:22:40 | INFO     | app.normalize.event_normalizer | Normalized 257 event row(s) for 'IM_Incident_data'
+2026-10-01 12:39:21 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 12:39:21 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 12:39:21 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 12:39:21 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 12:39:21 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 12:39:21 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 12:39:21 | INFO     | app.extract.csv_extractor | Extracted 9 new row(s) for 'Incident_GRC_data' (watermark=0 -> 9)
+2026-10-01 12:39:21 | INFO     | app.normalize.metric_normalizer | Normalized 45 metric row(s) for 'Incident_GRC_data' (mode=MetricMode.WIDE)
+2026-10-01 12:39:21 | INFO     | app.extract.csv_extractor | Extracted 45 new row(s) for 'TM_TFA_data' (watermark=0 -> 45)
+2026-10-01 12:39:21 | INFO     | app.normalize.metric_normalizer | Normalized 45 metric row(s) for 'TM_TFA_data' (mode=MetricMode.LONG)
+2026-10-01 12:56:26 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 12:56:26 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 12:56:26 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 12:56:26 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 12:56:26 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 12:56:26 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 12:56:26 | INFO     | app.extract.csv_extractor | Extracted 9 new row(s) for 'Incident_GRC_data' (watermark=0 -> 9)
+2026-10-01 12:56:26 | WARNING  | app.normalize.metric_normalizer | 20 date value(s) could not be parsed with format %m/%d/%Y for 'Incident_GRC_data'. Offending raw values: ['08-03-2026', '08-10-2026', '07-06-2026', '09-07-2026', '08-03-2026', '08-10-2026', '07-06-2026', '09-07-2026', '08-03-2026', '08-10-2026', '07-06-2026', '09-07-2026', '08-03-2026', '08-10-2026', '07-06-2026', '09-07-2026', '08-03-2026', '08-10-2026', '07-06-2026', '09-07-2026']
+2026-10-01 12:56:26 | INFO     | app.normalize.metric_normalizer | Normalized 45 metric row(s) for 'Incident_GRC_data' (mode=MetricMode.WIDE)
+2026-10-01 12:56:26 | INFO     | app.extract.csv_extractor | Extracted 45 new row(s) for 'TM_TFA_data' (watermark=0 -> 45)
+2026-10-01 12:56:26 | INFO     | app.normalize.metric_normalizer | Normalized 45 metric row(s) for 'TM_TFA_data' (mode=MetricMode.LONG)
+2026-10-01 13:09:28 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 13:09:28 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 13:09:28 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 13:09:28 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 13:09:28 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 13:09:28 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 13:09:28 | INFO     | app.extract.csv_extractor | Extracted 9 new row(s) for 'Incident_GRC_data' (watermark=0 -> 9)
+2026-10-01 13:09:28 | INFO     | app.normalize.metric_normalizer | Normalized 45 metric row(s) for 'Incident_GRC_data' (mode=MetricMode.WIDE)
+2026-10-01 13:09:28 | INFO     | app.extract.csv_extractor | Extracted 45 new row(s) for 'TM_TFA_data' (watermark=0 -> 45)
+2026-10-01 13:09:28 | INFO     | app.normalize.metric_normalizer | Normalized 45 metric row(s) for 'TM_TFA_data' (mode=MetricMode.LONG)
+2026-10-01 13:37:35 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 13:37:35 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 13:37:35 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 13:37:35 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 13:37:35 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 13:37:35 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 13:37:35 | INFO     | app.extract.csv_extractor | Extracted 9 new row(s) for 'Incident_GRC_data' (watermark=0 -> 9)
+2026-10-01 13:37:35 | INFO     | app.normalize.metric_normalizer | Normalized 45 metric row(s) for 'Incident_GRC_data' (mode=MetricMode.WIDE)
+2026-10-01 13:37:35 | INFO     | app.extract.csv_extractor | Extracted 45 new row(s) for 'TM_TFA_data' (watermark=0 -> 45)
+2026-10-01 13:37:35 | INFO     | app.normalize.metric_normalizer | Normalized 45 metric row(s) for 'TM_TFA_data' (mode=MetricMode.LONG)
+2026-10-01 13:46:24 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 13:46:24 | INFO     | app.core.config_loader | Global settings loaded | db=localhost:5432/csv_pipeline_db | log_level=INFO
+2026-10-01 13:46:24 | INFO     | app.core.db | Database engine initialized for localhost:5432/csv_pipeline_db
+2026-10-01 13:46:24 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 13:46:24 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 13:46:24 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 13:46:24 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 13:46:24 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 13:46:24 | INFO     | app.extract.csv_extractor | Extracted 257 new row(s) for 'IM_Incident_data' (watermark=0 -> 257)
+2026-10-01 13:46:24 | INFO     | app.load.raw_loader | Created raw table 'raw_im_incident_data' with columns: ['Incident_ID', 'Incident_Status', 'Analyst', 'Created_Date', 'Category', 'Affected_Business_Unit', 'Detection_SLA', 'Response_SLA']
+2026-10-01 13:46:24 | INFO     | app.load.raw_loader | Loaded 257 row(s) into 'raw_im_incident_data' (batch_id=c675ee30-ffd2-436e-978b-35d19690069a)
+2026-10-01 13:46:24 | INFO     | app.normalize.event_normalizer | Normalized 257 event row(s) for 'IM_Incident_data'
+2026-10-01 13:46:25 | INFO     | app.load.normalized_loader | Loaded 257 new event row(s), skipped 0 existing (ON CONFLICT).
+2026-10-01 13:46:25 | INFO     | app.load.normalized_loader | Loaded 0 new event row(s), skipped 257 existing (ON CONFLICT).
+2026-10-01 13:46:25 | INFO     | app.extract.csv_extractor | Extracted 9 new row(s) for 'Incident_GRC_data' (watermark=0 -> 9)
+2026-10-01 13:46:25 | INFO     | app.load.raw_loader | Created raw table 'raw_incident_grc_data' with columns: ['SIRT_Reported', 'EDR', 'LogRhythm', 'Sentinel', 'Incident_Reported_GRC', 'Date']
+2026-10-01 13:46:25 | INFO     | app.load.raw_loader | Loaded 9 row(s) into 'raw_incident_grc_data' (batch_id=bd771255-109d-46c2-8913-d491c57a03fd)
+2026-10-01 13:46:25 | INFO     | app.normalize.metric_normalizer | Normalized 45 metric row(s) for 'Incident_GRC_data' (mode=MetricMode.WIDE)
+2026-10-01 13:46:25 | INFO     | app.load.normalized_loader | Loaded 45 new metric row(s), skipped 0 existing (ON CONFLICT).
+2026-10-01 13:46:25 | INFO     | app.load.normalized_loader | Loaded 0 new metric row(s), skipped 45 existing (ON CONFLICT).
+2026-10-01 13:46:25 | INFO     | app.extract.csv_extractor | Extracted 45 new row(s) for 'TM_TFA_data' (watermark=0 -> 45)
+2026-10-01 13:46:25 | INFO     | app.load.raw_loader | Created raw table 'raw_tm_tfa_data' with columns: ['Usecase', 'Triggers', 'Date', 'Rank', 'RowKey']
+2026-10-01 13:46:25 | INFO     | app.load.raw_loader | Loaded 45 row(s) into 'raw_tm_tfa_data' (batch_id=c9ffe207-9425-429d-ae6c-075952045a98)
+2026-10-01 13:46:25 | INFO     | app.normalize.metric_normalizer | Normalized 45 metric row(s) for 'TM_TFA_data' (mode=MetricMode.LONG)
+2026-10-01 13:46:25 | INFO     | app.load.normalized_loader | Loaded 45 new metric row(s), skipped 0 existing (ON CONFLICT).
+2026-10-01 13:46:25 | INFO     | app.load.normalized_loader | Loaded 0 new metric row(s), skipped 45 existing (ON CONFLICT).
+2026-10-01 13:59:13 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 13:59:13 | INFO     | app.core.config_loader | Global settings loaded | db=localhost:5432/csv_pipeline_db | log_level=INFO
+2026-10-01 13:59:13 | INFO     | app.core.db | Database engine initialized for localhost:5432/csv_pipeline_db
+2026-10-01 13:59:13 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 13:59:13 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 13:59:13 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 13:59:13 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 13:59:13 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 13:59:13 | INFO     | app.pipeline.pipeline | Pipeline run started for 'IM_Incident_data'
+2026-10-01 13:59:13 | INFO     | app.extract.watermark_store | No watermark found for 'IM_Incident_data'; starting from 0.
+2026-10-01 13:59:13 | INFO     | app.extract.csv_extractor | Extracted 257 new row(s) for 'IM_Incident_data' (watermark=0 -> 257)
+2026-10-01 13:59:13 | INFO     | app.load.raw_loader | Created raw table 'raw_im_incident_data' with columns: ['Incident_ID', 'Incident_Status', 'Analyst', 'Created_Date', 'Category', 'Affected_Business_Unit', 'Detection_SLA', 'Response_SLA']
+2026-10-01 13:59:13 | INFO     | app.load.raw_loader | Loaded 257 row(s) into 'raw_im_incident_data' (batch_id=de0fe995-0211-488a-b3fc-19be424c4bb4)
+2026-10-01 13:59:14 | INFO     | app.normalize.event_normalizer | Normalized 257 event row(s) for 'IM_Incident_data'
+2026-10-01 13:59:14 | INFO     | app.load.normalized_loader | Loaded 257 new event row(s), skipped 0 existing (ON CONFLICT).
+2026-10-01 13:59:14 | INFO     | app.extract.watermark_store | Watermark updated for 'IM_Incident_data' -> 257
+2026-10-01 13:59:14 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'IM_Incident_data' | extracted=257 | loaded=257
+2026-10-01 13:59:14 | INFO     | app.pipeline.pipeline | Pipeline run started for 'Incident_GRC_data'
+2026-10-01 13:59:14 | INFO     | app.extract.watermark_store | No watermark found for 'Incident_GRC_data'; starting from 0.
+2026-10-01 13:59:14 | INFO     | app.extract.csv_extractor | Extracted 9 new row(s) for 'Incident_GRC_data' (watermark=0 -> 9)
+2026-10-01 13:59:14 | INFO     | app.load.raw_loader | Created raw table 'raw_incident_grc_data' with columns: ['SIRT_Reported', 'EDR', 'LogRhythm', 'Sentinel', 'Incident_Reported_GRC', 'Date']
+2026-10-01 13:59:14 | INFO     | app.load.raw_loader | Loaded 9 row(s) into 'raw_incident_grc_data' (batch_id=64f7933e-f7ba-4c95-85d3-e25e163d3116)
+2026-10-01 13:59:14 | INFO     | app.normalize.metric_normalizer | Normalized 45 metric row(s) for 'Incident_GRC_data' (mode=MetricMode.WIDE)
+2026-10-01 13:59:14 | INFO     | app.load.normalized_loader | Loaded 45 new metric row(s), skipped 0 existing (ON CONFLICT).
+2026-10-01 13:59:14 | INFO     | app.extract.watermark_store | Watermark updated for 'Incident_GRC_data' -> 9
+2026-10-01 13:59:14 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'Incident_GRC_data' | extracted=9 | loaded=45
+2026-10-01 13:59:14 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 13:59:14 | INFO     | app.extract.watermark_store | No watermark found for 'TM_TFA_data'; starting from 0.
+2026-10-01 13:59:14 | INFO     | app.extract.csv_extractor | Extracted 45 new row(s) for 'TM_TFA_data' (watermark=0 -> 45)
+2026-10-01 13:59:14 | INFO     | app.load.raw_loader | Created raw table 'raw_tm_tfa_data' with columns: ['Usecase', 'Triggers', 'Date', 'Rank', 'RowKey']
+2026-10-01 13:59:14 | INFO     | app.load.raw_loader | Loaded 45 row(s) into 'raw_tm_tfa_data' (batch_id=7bd6da03-877f-4ee2-8417-1c18161de286)
+2026-10-01 13:59:14 | INFO     | app.normalize.metric_normalizer | Normalized 45 metric row(s) for 'TM_TFA_data' (mode=MetricMode.LONG)
+2026-10-01 13:59:14 | INFO     | app.load.normalized_loader | Loaded 45 new metric row(s), skipped 0 existing (ON CONFLICT).
+2026-10-01 13:59:14 | INFO     | app.extract.watermark_store | Watermark updated for 'TM_TFA_data' -> 45
+2026-10-01 13:59:14 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'TM_TFA_data' | extracted=45 | loaded=45
+2026-10-01 13:59:14 | INFO     | app.pipeline.pipeline | Pipeline run started for 'IM_Incident_data'
+2026-10-01 13:59:14 | INFO     | app.extract.csv_extractor | No new rows for 'IM_Incident_data' (watermark=257, total_rows=257)
+2026-10-01 13:59:14 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'IM_Incident_data' (no new rows).
+2026-10-01 13:59:14 | INFO     | app.pipeline.pipeline | Pipeline run started for 'Incident_GRC_data'
+2026-10-01 13:59:14 | INFO     | app.extract.csv_extractor | No new rows for 'Incident_GRC_data' (watermark=9, total_rows=9)
+2026-10-01 13:59:14 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'Incident_GRC_data' (no new rows).
+2026-10-01 13:59:14 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 13:59:14 | INFO     | app.extract.csv_extractor | No new rows for 'TM_TFA_data' (watermark=45, total_rows=45)
+2026-10-01 13:59:14 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'TM_TFA_data' (no new rows).
+2026-10-01 15:29:42 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 15:29:42 | INFO     | app.core.config_loader | Global settings loaded | db=localhost:5432/csv_pipeline_db | log_level=INFO
+2026-10-01 15:29:42 | INFO     | app.core.db | Database engine initialized for localhost:5432/csv_pipeline_db
+2026-10-01 15:29:42 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 15:29:42 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 15:29:42 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 15:29:42 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 15:29:42 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 15:29:42 | INFO     | app.pipeline.pipeline | Pipeline run started for 'IM_Incident_data'
+2026-10-01 15:29:44 | INFO     | app.extract.csv_extractor | No new rows for 'IM_Incident_data' (watermark=257, total_rows=257)
+2026-10-01 15:29:44 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'IM_Incident_data' (no new rows).
+2026-10-01 15:29:44 | INFO     | app.pipeline.pipeline | Pipeline run started for 'Incident_GRC_data'
+2026-10-01 15:29:46 | INFO     | app.extract.csv_extractor | No new rows for 'Incident_GRC_data' (watermark=9, total_rows=9)
+2026-10-01 15:29:46 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'Incident_GRC_data' (no new rows).
+2026-10-01 15:29:46 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 15:29:49 | INFO     | app.extract.csv_extractor | No new rows for 'TM_TFA_data' (watermark=45, total_rows=45)
+2026-10-01 15:29:49 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'TM_TFA_data' (no new rows).
+2026-10-01 15:29:49 | INFO     | app.pipeline.pipeline | Pipeline run started for 'IM_Incident_data'
+2026-10-01 15:29:51 | INFO     | app.extract.csv_extractor | No new rows for 'IM_Incident_data' (watermark=257, total_rows=257)
+2026-10-01 15:29:51 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'IM_Incident_data' (no new rows).
+2026-10-01 15:29:51 | INFO     | app.pipeline.pipeline | Pipeline run started for 'Incident_GRC_data'
+2026-10-01 15:29:53 | INFO     | app.extract.csv_extractor | No new rows for 'Incident_GRC_data' (watermark=9, total_rows=9)
+2026-10-01 15:29:53 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'Incident_GRC_data' (no new rows).
+2026-10-01 15:29:53 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 15:29:55 | INFO     | app.extract.csv_extractor | No new rows for 'TM_TFA_data' (watermark=45, total_rows=45)
+2026-10-01 15:29:55 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'TM_TFA_data' (no new rows).
+2026-10-01 15:31:49 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 15:31:49 | INFO     | app.core.config_loader | Global settings loaded | db=localhost:5432/csv_pipeline_db | log_level=INFO
+2026-10-01 15:31:49 | INFO     | app.core.db | Database engine initialized for localhost:5432/csv_pipeline_db
+2026-10-01 15:31:49 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 15:31:49 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 15:31:49 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 15:31:49 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 15:31:49 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 15:31:49 | INFO     | app.pipeline.pipeline | Pipeline run started for 'IM_Incident_data'
+2026-10-01 15:31:51 | INFO     | app.extract.csv_extractor | No new rows for 'IM_Incident_data' (watermark=257, total_rows=257)
+2026-10-01 15:31:51 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'IM_Incident_data' (no new rows).
+2026-10-01 15:31:51 | INFO     | app.pipeline.pipeline | Pipeline run started for 'Incident_GRC_data'
+2026-10-01 15:31:53 | INFO     | app.extract.csv_extractor | No new rows for 'Incident_GRC_data' (watermark=9, total_rows=9)
+2026-10-01 15:31:53 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'Incident_GRC_data' (no new rows).
+2026-10-01 15:31:53 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 15:31:55 | INFO     | app.extract.csv_extractor | No new rows for 'TM_TFA_data' (watermark=45, total_rows=45)
+2026-10-01 15:31:55 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'TM_TFA_data' (no new rows).
+2026-10-01 15:31:55 | INFO     | app.pipeline.pipeline | Pipeline run started for 'IM_Incident_data'
+2026-10-01 15:31:57 | INFO     | app.extract.csv_extractor | No new rows for 'IM_Incident_data' (watermark=257, total_rows=257)
+2026-10-01 15:31:57 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'IM_Incident_data' (no new rows).
+2026-10-01 15:31:57 | INFO     | app.pipeline.pipeline | Pipeline run started for 'Incident_GRC_data'
+2026-10-01 15:32:00 | INFO     | app.extract.csv_extractor | No new rows for 'Incident_GRC_data' (watermark=9, total_rows=9)
+2026-10-01 15:32:00 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'Incident_GRC_data' (no new rows).
+2026-10-01 15:32:00 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 15:32:02 | INFO     | app.extract.csv_extractor | No new rows for 'TM_TFA_data' (watermark=45, total_rows=45)
+2026-10-01 15:32:02 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'TM_TFA_data' (no new rows).
+2026-10-01 15:34:22 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 15:34:22 | INFO     | app.core.config_loader | Global settings loaded | db=localhost:5432/csv_pipeline_db | log_level=INFO
+2026-10-01 15:34:22 | INFO     | app.core.db | Database engine initialized for localhost:5432/csv_pipeline_db
+2026-10-01 15:34:22 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 15:34:22 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 15:34:22 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 15:34:22 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 15:34:22 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 15:34:22 | INFO     | app.pipeline.pipeline | Pipeline run started for 'IM_Incident_data'
+2026-10-01 15:34:24 | INFO     | app.extract.csv_extractor | No new rows for 'IM_Incident_data' (watermark=257, total_rows=257)
+2026-10-01 15:34:24 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'IM_Incident_data' (no new rows).
+2026-10-01 15:34:24 | INFO     | app.pipeline.pipeline | Pipeline run started for 'Incident_GRC_data'
+2026-10-01 15:34:26 | INFO     | app.extract.csv_extractor | No new rows for 'Incident_GRC_data' (watermark=9, total_rows=9)
+2026-10-01 15:34:26 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'Incident_GRC_data' (no new rows).
+2026-10-01 15:34:26 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 15:34:28 | INFO     | app.extract.csv_extractor | No new rows for 'TM_TFA_data' (watermark=45, total_rows=45)
+2026-10-01 15:34:28 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'TM_TFA_data' (no new rows).
+2026-10-01 15:34:28 | INFO     | app.pipeline.pipeline | Pipeline run started for 'IM_Incident_data'
+2026-10-01 15:34:30 | INFO     | app.extract.csv_extractor | No new rows for 'IM_Incident_data' (watermark=257, total_rows=257)
+2026-10-01 15:34:30 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'IM_Incident_data' (no new rows).
+2026-10-01 15:34:30 | INFO     | app.pipeline.pipeline | Pipeline run started for 'Incident_GRC_data'
+2026-10-01 15:34:32 | INFO     | app.extract.csv_extractor | No new rows for 'Incident_GRC_data' (watermark=9, total_rows=9)
+2026-10-01 15:34:32 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'Incident_GRC_data' (no new rows).
+2026-10-01 15:34:32 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 15:34:34 | INFO     | app.extract.csv_extractor | No new rows for 'TM_TFA_data' (watermark=45, total_rows=45)
+2026-10-01 15:34:34 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'TM_TFA_data' (no new rows).
+2026-10-01 15:36:43 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 15:36:43 | INFO     | app.core.config_loader | Global settings loaded | db=localhost:5432/csv_pipeline_db | log_level=INFO
+2026-10-01 15:36:43 | INFO     | app.core.db | Database engine initialized for localhost:5432/csv_pipeline_db
+2026-10-01 15:36:43 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 15:36:43 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 15:36:43 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 15:36:43 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 15:36:43 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 15:36:43 | INFO     | app.pipeline.pipeline | Pipeline run started for 'IM_Incident_data'
+2026-10-01 15:36:43 | ERROR    | app.pipeline.pipeline | Pipeline run FAILED for 'IM_Incident_data': (psycopg2.errors.UndefinedTable) relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+[SQL: SELECT last_value FROM pipeline_watermarks WHERE source_name = %(source_name)s]
+[parameters: {'source_name': 'IM_Incident_data'}]
+(Background on this error at: https://sqlalche.me/e/21/f405)
+Traceback (most recent call last):
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\pipeline\pipeline.py", line 57, in run
+    last_watermark = self.watermark_store.get_last_watermark(source_name)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\extract\watermark_store.py", line 34, in get_last_watermark
+    result = conn.execute(query, {"source_name": source_name}).fetchone()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1448, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 533, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1668, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1822, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1962, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2332, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+[SQL: SELECT last_value FROM pipeline_watermarks WHERE source_name = %(source_name)s]
+[parameters: {'source_name': 'IM_Incident_data'}]
+(Background on this error at: https://sqlalche.me/e/21/f405)
+2026-10-01 15:36:43 | INFO     | app.pipeline.pipeline | Pipeline run started for 'Incident_GRC_data'
+2026-10-01 15:36:43 | ERROR    | app.pipeline.pipeline | Pipeline run FAILED for 'Incident_GRC_data': (psycopg2.errors.UndefinedTable) relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+[SQL: SELECT last_value FROM pipeline_watermarks WHERE source_name = %(source_name)s]
+[parameters: {'source_name': 'Incident_GRC_data'}]
+(Background on this error at: https://sqlalche.me/e/21/f405)
+Traceback (most recent call last):
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\pipeline\pipeline.py", line 57, in run
+    last_watermark = self.watermark_store.get_last_watermark(source_name)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\extract\watermark_store.py", line 34, in get_last_watermark
+    result = conn.execute(query, {"source_name": source_name}).fetchone()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1448, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 533, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1668, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1822, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1962, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2332, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+[SQL: SELECT last_value FROM pipeline_watermarks WHERE source_name = %(source_name)s]
+[parameters: {'source_name': 'Incident_GRC_data'}]
+(Background on this error at: https://sqlalche.me/e/21/f405)
+2026-10-01 15:36:43 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 15:36:43 | ERROR    | app.pipeline.pipeline | Pipeline run FAILED for 'TM_TFA_data': (psycopg2.errors.UndefinedTable) relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+[SQL: SELECT last_value FROM pipeline_watermarks WHERE source_name = %(source_name)s]
+[parameters: {'source_name': 'TM_TFA_data'}]
+(Background on this error at: https://sqlalche.me/e/21/f405)
+Traceback (most recent call last):
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\pipeline\pipeline.py", line 57, in run
+    last_watermark = self.watermark_store.get_last_watermark(source_name)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\extract\watermark_store.py", line 34, in get_last_watermark
+    result = conn.execute(query, {"source_name": source_name}).fetchone()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1448, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 533, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1668, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1822, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1962, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2332, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+[SQL: SELECT last_value FROM pipeline_watermarks WHERE source_name = %(source_name)s]
+[parameters: {'source_name': 'TM_TFA_data'}]
+(Background on this error at: https://sqlalche.me/e/21/f405)
+2026-10-01 15:36:43 | INFO     | app.pipeline.pipeline | Pipeline run started for 'IM_Incident_data'
+2026-10-01 15:36:43 | ERROR    | app.pipeline.pipeline | Pipeline run FAILED for 'IM_Incident_data': (psycopg2.errors.UndefinedTable) relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+[SQL: SELECT last_value FROM pipeline_watermarks WHERE source_name = %(source_name)s]
+[parameters: {'source_name': 'IM_Incident_data'}]
+(Background on this error at: https://sqlalche.me/e/21/f405)
+Traceback (most recent call last):
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\pipeline\pipeline.py", line 57, in run
+    last_watermark = self.watermark_store.get_last_watermark(source_name)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\extract\watermark_store.py", line 34, in get_last_watermark
+    result = conn.execute(query, {"source_name": source_name}).fetchone()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1448, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 533, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1668, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1822, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1962, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2332, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+[SQL: SELECT last_value FROM pipeline_watermarks WHERE source_name = %(source_name)s]
+[parameters: {'source_name': 'IM_Incident_data'}]
+(Background on this error at: https://sqlalche.me/e/21/f405)
+2026-10-01 15:36:43 | INFO     | app.pipeline.pipeline | Pipeline run started for 'Incident_GRC_data'
+2026-10-01 15:36:43 | ERROR    | app.pipeline.pipeline | Pipeline run FAILED for 'Incident_GRC_data': (psycopg2.errors.UndefinedTable) relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+[SQL: SELECT last_value FROM pipeline_watermarks WHERE source_name = %(source_name)s]
+[parameters: {'source_name': 'Incident_GRC_data'}]
+(Background on this error at: https://sqlalche.me/e/21/f405)
+Traceback (most recent call last):
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\pipeline\pipeline.py", line 57, in run
+    last_watermark = self.watermark_store.get_last_watermark(source_name)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\extract\watermark_store.py", line 34, in get_last_watermark
+    result = conn.execute(query, {"source_name": source_name}).fetchone()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1448, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 533, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1668, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1822, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1962, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2332, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+[SQL: SELECT last_value FROM pipeline_watermarks WHERE source_name = %(source_name)s]
+[parameters: {'source_name': 'Incident_GRC_data'}]
+(Background on this error at: https://sqlalche.me/e/21/f405)
+2026-10-01 15:36:43 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 15:36:43 | ERROR    | app.pipeline.pipeline | Pipeline run FAILED for 'TM_TFA_data': (psycopg2.errors.UndefinedTable) relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+[SQL: SELECT last_value FROM pipeline_watermarks WHERE source_name = %(source_name)s]
+[parameters: {'source_name': 'TM_TFA_data'}]
+(Background on this error at: https://sqlalche.me/e/21/f405)
+Traceback (most recent call last):
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\pipeline\pipeline.py", line 57, in run
+    last_watermark = self.watermark_store.get_last_watermark(source_name)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\extract\watermark_store.py", line 34, in get_last_watermark
+    result = conn.execute(query, {"source_name": source_name}).fetchone()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1448, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 533, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1668, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1822, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1962, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2332, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "pipeline_watermarks" does not exist
+LINE 1: SELECT last_value FROM pipeline_watermarks WHERE source_name...
+                               ^
+
+[SQL: SELECT last_value FROM pipeline_watermarks WHERE source_name = %(source_name)s]
+[parameters: {'source_name': 'TM_TFA_data'}]
+(Background on this error at: https://sqlalche.me/e/21/f405)
+2026-10-01 15:42:44 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 15:42:44 | INFO     | app.core.config_loader | Global settings loaded | db=localhost:5432/csv_pipeline_db | log_level=INFO
+2026-10-01 15:42:44 | INFO     | app.core.db | Database engine initialized for localhost:5432/csv_pipeline_db
+2026-10-01 15:42:44 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 15:42:44 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 15:42:44 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 15:42:44 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 15:42:44 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 15:42:44 | INFO     | app.pipeline.pipeline | Pipeline run started for 'IM_Incident_data'
+2026-10-01 15:42:44 | INFO     | app.extract.watermark_store | No watermark found for 'IM_Incident_data'; starting from 0.
+2026-10-01 15:42:46 | INFO     | app.extract.csv_extractor | Extracted 257 new row(s) for 'IM_Incident_data' (watermark=0 -> 257)
+2026-10-01 15:42:47 | INFO     | app.load.raw_loader | Created raw table 'raw_im_incident_data' with columns: ['Incident_ID', 'Incident_Status', 'Analyst', 'Created_Date', 'Category', 'Affected_Business_Unit', 'Detection_SLA', 'Response_SLA']
+2026-10-01 15:42:47 | INFO     | app.load.raw_loader | Loaded 257 row(s) into 'raw_im_incident_data' (batch_id=20200587-f247-4a1b-b3c5-5d8286a40de4)
+2026-10-01 15:42:47 | INFO     | app.normalize.event_normalizer | Normalized 257 event row(s) for 'IM_Incident_data'
+2026-10-01 15:42:47 | INFO     | app.load.normalized_loader | Loaded 257 new event row(s), skipped 0 existing (ON CONFLICT).
+2026-10-01 15:42:47 | INFO     | app.extract.watermark_store | Watermark updated for 'IM_Incident_data' -> 257
+2026-10-01 15:42:47 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'IM_Incident_data' | extracted=257 | loaded=257
+2026-10-01 15:42:47 | INFO     | app.pipeline.pipeline | Pipeline run started for 'Incident_GRC_data'
+2026-10-01 15:42:47 | INFO     | app.extract.watermark_store | No watermark found for 'Incident_GRC_data'; starting from 0.
+2026-10-01 15:42:49 | INFO     | app.extract.csv_extractor | Extracted 9 new row(s) for 'Incident_GRC_data' (watermark=0 -> 9)
+2026-10-01 15:42:49 | INFO     | app.load.raw_loader | Created raw table 'raw_incident_grc_data' with columns: ['SIRT_Reported', 'EDR', 'LogRhythm', 'Sentinel', 'Incident_Reported_GRC', 'Date']
+2026-10-01 15:42:49 | INFO     | app.load.raw_loader | Loaded 9 row(s) into 'raw_incident_grc_data' (batch_id=fedbfb58-8f98-4e16-8cfe-943c4c64679b)
+2026-10-01 15:42:49 | INFO     | app.normalize.metric_normalizer | Normalized 45 metric row(s) for 'Incident_GRC_data' (mode=MetricMode.WIDE)
+2026-10-01 15:42:49 | INFO     | app.load.normalized_loader | Loaded 45 new metric row(s), skipped 0 existing (ON CONFLICT).
+2026-10-01 15:42:49 | INFO     | app.extract.watermark_store | Watermark updated for 'Incident_GRC_data' -> 9
+2026-10-01 15:42:49 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'Incident_GRC_data' | extracted=9 | loaded=45
+2026-10-01 15:42:49 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 15:42:49 | INFO     | app.extract.watermark_store | No watermark found for 'TM_TFA_data'; starting from 0.
+2026-10-01 15:42:51 | INFO     | app.extract.csv_extractor | Extracted 45 new row(s) for 'TM_TFA_data' (watermark=0 -> 45)
+2026-10-01 15:42:51 | INFO     | app.load.raw_loader | Created raw table 'raw_tm_tfa_data' with columns: ['Usecase', 'Triggers', 'Date', 'Rank', 'RowKey']
+2026-10-01 15:42:51 | INFO     | app.load.raw_loader | Loaded 45 row(s) into 'raw_tm_tfa_data' (batch_id=4067c6f1-eaf6-44ed-bfe9-95cd85d132b6)
+2026-10-01 15:42:51 | INFO     | app.normalize.metric_normalizer | Normalized 45 metric row(s) for 'TM_TFA_data' (mode=MetricMode.LONG)
+2026-10-01 15:42:51 | INFO     | app.load.normalized_loader | Loaded 45 new metric row(s), skipped 0 existing (ON CONFLICT).
+2026-10-01 15:42:51 | INFO     | app.extract.watermark_store | Watermark updated for 'TM_TFA_data' -> 45
+2026-10-01 15:42:51 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'TM_TFA_data' | extracted=45 | loaded=45
+2026-10-01 15:42:51 | INFO     | app.pipeline.pipeline | Pipeline run started for 'IM_Incident_data'
+2026-10-01 15:42:53 | INFO     | app.extract.csv_extractor | No new rows for 'IM_Incident_data' (watermark=257, total_rows=257)
+2026-10-01 15:42:53 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'IM_Incident_data' (no new rows).
+2026-10-01 15:42:53 | INFO     | app.pipeline.pipeline | Pipeline run started for 'Incident_GRC_data'
+2026-10-01 15:42:55 | INFO     | app.extract.csv_extractor | No new rows for 'Incident_GRC_data' (watermark=9, total_rows=9)
+2026-10-01 15:42:55 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'Incident_GRC_data' (no new rows).
+2026-10-01 15:42:55 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 15:42:57 | INFO     | app.extract.csv_extractor | No new rows for 'TM_TFA_data' (watermark=45, total_rows=45)
+2026-10-01 15:42:57 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'TM_TFA_data' (no new rows).
+2026-10-01 16:14:15 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 16:14:15 | INFO     | app.core.config_loader | Global settings loaded | db=localhost:5432/csv_pipeline_db | log_level=INFO
+2026-10-01 16:14:15 | INFO     | app.core.db | Database engine initialized for localhost:5432/csv_pipeline_db
+2026-10-01 16:14:15 | INFO     | app.core.db | Database connection test succeeded.
+2026-10-01 16:14:16 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 16:14:16 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 16:14:16 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 16:14:16 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 16:14:16 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 16:14:16 | INFO     | __main__ | Running all sources once at startup...
+2026-10-01 16:14:16 | INFO     | app.scheduler.scheduler | Manual run triggered for 'IM_Incident_data'
+2026-10-01 16:14:16 | INFO     | app.pipeline.pipeline | Pipeline run started for 'IM_Incident_data'
+2026-10-01 16:14:18 | INFO     | app.extract.csv_extractor | No new rows for 'IM_Incident_data' (watermark=257, total_rows=257)
+2026-10-01 16:14:18 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'IM_Incident_data' (no new rows).
+2026-10-01 16:14:18 | INFO     | app.scheduler.scheduler | Manual run triggered for 'Incident_GRC_data'
+2026-10-01 16:14:18 | INFO     | app.pipeline.pipeline | Pipeline run started for 'Incident_GRC_data'
+2026-10-01 16:14:20 | INFO     | app.extract.csv_extractor | No new rows for 'Incident_GRC_data' (watermark=9, total_rows=9)
+2026-10-01 16:14:20 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'Incident_GRC_data' (no new rows).
+2026-10-01 16:14:20 | INFO     | app.scheduler.scheduler | Manual run triggered for 'TM_TFA_data'
+2026-10-01 16:14:20 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 16:14:22 | INFO     | app.extract.csv_extractor | No new rows for 'TM_TFA_data' (watermark=45, total_rows=45)
+2026-10-01 16:14:22 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'TM_TFA_data' (no new rows).
+2026-10-01 16:14:22 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-10-01 16:14:22 | INFO     | app.scheduler.scheduler | Scheduled 'IM_Incident_data' every 86400s (1d)
+2026-10-01 16:14:22 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-10-01 16:14:22 | INFO     | app.scheduler.scheduler | Scheduled 'Incident_GRC_data' every 86400s (1d)
+2026-10-01 16:14:22 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-10-01 16:14:22 | INFO     | app.scheduler.scheduler | Scheduled 'TM_TFA_data' every 86400s (1d)
+2026-10-01 16:14:22 | INFO     | apscheduler.scheduler | Added job "SchedulerService._run_source" to job store "default"
+2026-10-01 16:14:22 | INFO     | apscheduler.scheduler | Added job "SchedulerService._run_source" to job store "default"
+2026-10-01 16:14:22 | INFO     | apscheduler.scheduler | Added job "SchedulerService._run_source" to job store "default"
+2026-10-01 16:14:22 | INFO     | apscheduler.scheduler | Scheduler started
+2026-10-01 16:14:22 | INFO     | app.scheduler.scheduler | Scheduler started.
+2026-10-01 16:15:04 | INFO     | __main__ | Shutdown signal received.
+2026-10-01 16:15:04 | INFO     | apscheduler.scheduler | Scheduler has been shut down
+2026-10-01 16:15:04 | INFO     | app.scheduler.scheduler | Scheduler shutdown.
+2026-10-01 16:17:08 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 16:17:08 | INFO     | app.core.config_loader | Global settings loaded | db=localhost:5432/csv_pipeline_db | log_level=INFO
+2026-10-01 16:17:08 | INFO     | app.core.db | Database engine initialized for localhost:5432/csv_pipeline_db
+2026-10-01 16:17:08 | INFO     | app.core.db | Database connection test succeeded.
+2026-10-01 16:17:08 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 16:17:08 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 16:17:08 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 16:17:08 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 16:17:08 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 16:17:08 | INFO     | __main__ | Running all sources once at startup...
+2026-10-01 16:17:08 | INFO     | app.scheduler.scheduler | Manual run triggered for 'IM_Incident_data'
+2026-10-01 16:17:08 | INFO     | app.pipeline.pipeline | Pipeline run started for 'IM_Incident_data'
+2026-10-01 16:17:10 | INFO     | app.extract.csv_extractor | No new rows for 'IM_Incident_data' (watermark=257, total_rows=257)
+2026-10-01 16:17:10 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'IM_Incident_data' (no new rows).
+2026-10-01 16:17:10 | INFO     | app.scheduler.scheduler | Manual run triggered for 'Incident_GRC_data'
+2026-10-01 16:17:10 | INFO     | app.pipeline.pipeline | Pipeline run started for 'Incident_GRC_data'
+2026-10-01 16:17:12 | INFO     | app.extract.csv_extractor | No new rows for 'Incident_GRC_data' (watermark=9, total_rows=9)
+2026-10-01 16:17:12 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'Incident_GRC_data' (no new rows).
+2026-10-01 16:17:12 | INFO     | app.scheduler.scheduler | Manual run triggered for 'TM_TFA_data'
+2026-10-01 16:17:12 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 16:17:14 | INFO     | app.extract.csv_extractor | No new rows for 'TM_TFA_data' (watermark=45, total_rows=45)
+2026-10-01 16:17:14 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'TM_TFA_data' (no new rows).
+2026-10-01 16:17:14 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-10-01 16:17:14 | INFO     | app.scheduler.scheduler | Scheduled 'IM_Incident_data' every 86400s (1d)
+2026-10-01 16:17:14 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-10-01 16:17:14 | INFO     | app.scheduler.scheduler | Scheduled 'Incident_GRC_data' every 86400s (1d)
+2026-10-01 16:17:14 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-10-01 16:17:14 | INFO     | app.scheduler.scheduler | Scheduled 'TM_TFA_data' every 15s (15s)
+2026-10-01 16:17:14 | INFO     | apscheduler.scheduler | Added job "SchedulerService._run_source" to job store "default"
+2026-10-01 16:17:14 | INFO     | apscheduler.scheduler | Added job "SchedulerService._run_source" to job store "default"
+2026-10-01 16:17:14 | INFO     | apscheduler.scheduler | Added job "SchedulerService._run_source" to job store "default"
+2026-10-01 16:17:14 | INFO     | apscheduler.scheduler | Scheduler started
+2026-10-01 16:17:14 | INFO     | app.scheduler.scheduler | Scheduler started.
+2026-10-01 16:29:10 | INFO     | __main__ | Shutdown signal received.
+2026-10-01 16:29:10 | INFO     | apscheduler.scheduler | Scheduler has been shut down
+2026-10-01 16:29:10 | INFO     | app.scheduler.scheduler | Scheduler shutdown.
+2026-10-01 16:30:25 | INFO     | app.core.logging_setup | Logging configured | level=INFO | file=./logs/pipeline.log
+2026-10-01 16:30:25 | INFO     | app.core.config_loader | Global settings loaded | db=localhost:5432/csv_pipeline_db | log_level=INFO
+2026-10-01 16:30:25 | INFO     | app.core.db | Database engine initialized for localhost:5432/csv_pipeline_db
+2026-10-01 16:30:25 | INFO     | app.core.db | Database connection test succeeded.
+2026-10-01 16:30:25 | INFO     | app.core.config_loader | Loaded source config: IM_Incident_data
+2026-10-01 16:30:25 | INFO     | app.core.config_loader | Loaded source config: Incident_GRC_data
+2026-10-01 16:30:25 | INFO     | app.core.config_loader | Loaded source config: TM_TFA_data
+2026-10-01 16:30:25 | INFO     | app.core.config_loader | Config load complete | valid=3 | invalid=0 | total=3
+2026-10-01 16:30:25 | INFO     | app.core.config_loader | Enabled sources: 3 of 3
+2026-10-01 16:30:25 | INFO     | __main__ | Running all sources once at startup...
+2026-10-01 16:30:25 | INFO     | app.scheduler.scheduler | Manual run triggered for 'IM_Incident_data'
+2026-10-01 16:30:25 | INFO     | app.scheduler.scheduler | Scheduled poll triggered for 'IM_Incident_data'
+2026-10-01 16:30:25 | INFO     | app.pipeline.pipeline | Pipeline run started for 'IM_Incident_data'
+2026-10-01 16:30:27 | INFO     | app.extract.csv_extractor | No new rows for 'IM_Incident_data' (watermark=257, total_rows=257)
+2026-10-01 16:30:27 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'IM_Incident_data' (no new rows).
+2026-10-01 16:30:27 | INFO     | app.scheduler.scheduler | Manual run triggered for 'Incident_GRC_data'
+2026-10-01 16:30:27 | INFO     | app.scheduler.scheduler | Scheduled poll triggered for 'Incident_GRC_data'
+2026-10-01 16:30:27 | INFO     | app.pipeline.pipeline | Pipeline run started for 'Incident_GRC_data'
+2026-10-01 16:30:29 | INFO     | app.extract.csv_extractor | No new rows for 'Incident_GRC_data' (watermark=9, total_rows=9)
+2026-10-01 16:30:29 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'Incident_GRC_data' (no new rows).
+2026-10-01 16:30:29 | INFO     | app.scheduler.scheduler | Manual run triggered for 'TM_TFA_data'
+2026-10-01 16:30:29 | INFO     | app.scheduler.scheduler | Scheduled poll triggered for 'TM_TFA_data'
+2026-10-01 16:30:29 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 16:30:31 | INFO     | app.extract.csv_extractor | No new rows for 'TM_TFA_data' (watermark=45, total_rows=45)
+2026-10-01 16:30:31 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'TM_TFA_data' (no new rows).
+2026-10-01 16:30:31 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-10-01 16:30:31 | INFO     | app.scheduler.scheduler | Scheduled 'IM_Incident_data' every 86400s (1d)
+2026-10-01 16:30:31 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-10-01 16:30:31 | INFO     | app.scheduler.scheduler | Scheduled 'Incident_GRC_data' every 86400s (1d)
+2026-10-01 16:30:31 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-10-01 16:30:31 | INFO     | app.scheduler.scheduler | Scheduled 'TM_TFA_data' every 15s (15s)
+2026-10-01 16:30:31 | INFO     | apscheduler.scheduler | Added job "SchedulerService._run_source" to job store "default"
+2026-10-01 16:30:31 | INFO     | apscheduler.scheduler | Added job "SchedulerService._run_source" to job store "default"
+2026-10-01 16:30:31 | INFO     | apscheduler.scheduler | Added job "SchedulerService._run_source" to job store "default"
+2026-10-01 16:30:31 | INFO     | apscheduler.scheduler | Scheduler started
+2026-10-01 16:30:31 | INFO     | app.scheduler.scheduler | Scheduler started.
+2026-10-01 16:30:46 | INFO     | apscheduler.executors.default | Running job "SchedulerService._run_source (trigger: interval[0:00:15], next run at: 2026-10-01 16:31:01 IST)" (scheduled at 2026-10-01 16:30:46.668230+05:30)
+2026-10-01 16:30:46 | INFO     | app.scheduler.scheduler | Scheduled poll triggered for 'TM_TFA_data'
+2026-10-01 16:30:46 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 16:30:48 | INFO     | app.extract.csv_extractor | No new rows for 'TM_TFA_data' (watermark=45, total_rows=45)
+2026-10-01 16:30:48 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'TM_TFA_data' (no new rows).
+2026-10-01 16:30:48 | INFO     | apscheduler.executors.default | Job "SchedulerService._run_source (trigger: interval[0:00:15], next run at: 2026-10-01 16:31:01 IST)" executed successfully
+2026-10-01 16:31:01 | INFO     | apscheduler.executors.default | Running job "SchedulerService._run_source (trigger: interval[0:00:15], next run at: 2026-10-01 16:31:16 IST)" (scheduled at 2026-10-01 16:31:01.668230+05:30)
+2026-10-01 16:31:01 | INFO     | app.scheduler.scheduler | Scheduled poll triggered for 'TM_TFA_data'
+2026-10-01 16:31:01 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 16:31:03 | INFO     | app.extract.csv_extractor | No new rows for 'TM_TFA_data' (watermark=45, total_rows=45)
+2026-10-01 16:31:03 | INFO     | app.pipeline.pipeline | Pipeline run complete for 'TM_TFA_data' (no new rows).
+2026-10-01 16:31:03 | INFO     | apscheduler.executors.default | Job "SchedulerService._run_source (trigger: interval[0:00:15], next run at: 2026-10-01 16:31:16 IST)" executed successfully
+2026-10-01 16:31:16 | INFO     | apscheduler.executors.default | Running job "SchedulerService._run_source (trigger: interval[0:00:15], next run at: 2026-10-01 16:31:31 IST)" (scheduled at 2026-10-01 16:31:16.668230+05:30)
+2026-10-01 16:31:16 | INFO     | app.scheduler.scheduler | Scheduled poll triggered for 'TM_TFA_data'
+2026-10-01 16:31:16 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 16:31:18 | INFO     | app.extract.csv_extractor | Extracted 1 new row(s) for 'TM_TFA_data' (watermark=45 -> 46)
+2026-10-01 16:31:18 | INFO     | app.load.raw_loader | Loaded 1 row(s) into 'raw_tm_tfa_data' (batch_id=303c69c6-6bb8-4cfe-8ebd-9f26edf73224)
+2026-10-01 16:31:18 | WARNING  | app.normalize.metric_normalizer | 1 row(s) in 'TM_TFA_data' had unparseable metric_value.
+2026-10-01 16:31:18 | INFO     | app.normalize.metric_normalizer | Normalized 1 metric row(s) for 'TM_TFA_data' (mode=MetricMode.LONG)
+2026-10-01 16:31:18 | ERROR    | app.pipeline.pipeline | Pipeline run FAILED for 'TM_TFA_data': (psycopg2.errors.NumericValueOutOfRange) integer out of range
+
+[SQL: 
+            INSERT INTO normalized_metrics
+                (source_system, metric_name, metric_value, metric_rank,
+                 period_start, period_end, source_row_key, raw_table_name, raw_id)
+            VALUES
+                (%(source_system)s, %(metric_name)s, %(metric_value)s, %(metric_rank)s,
+                 %(period_start)s, %(period_end)s, %(source_row_key)s, %(raw_table_name)s, %(raw_id)s)
+            ON CONFLICT (source_system, metric_name, period_end, metric_rank) DO NOTHING
+            ]
+[parameters: {'source_system': 'TrendMicro', 'metric_name': 'test', 'metric_value': nan, 'metric_rank': nan, 'period_start': datetime.date(2026, 9, 25), 'period_end': datetime.date(2026, 10, 1), 'source_row_key': '10/01/2026_5', 'raw_table_name': 'raw_tm_tfa_data', 'raw_id': 46}]
+(Background on this error at: https://sqlalche.me/e/21/9h9h)
+Traceback (most recent call last):
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.NumericValueOutOfRange: integer out of range
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\pipeline\pipeline.py", line 66, in run
+    rows_loaded = self.normalized_loader.load(normalized_df, target=self.normalize_target)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\load\normalized_loader.py", line 26, in load
+    return self._load_metrics(df)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\load\normalized_loader.py", line 81, in _load_metrics
+    result = conn.execute(insert_sql, row.to_dict())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1448, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 533, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1668, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1822, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1962, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2332, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.DataError: (psycopg2.errors.NumericValueOutOfRange) integer out of range
+
+[SQL: 
+            INSERT INTO normalized_metrics
+                (source_system, metric_name, metric_value, metric_rank,
+                 period_start, period_end, source_row_key, raw_table_name, raw_id)
+            VALUES
+                (%(source_system)s, %(metric_name)s, %(metric_value)s, %(metric_rank)s,
+                 %(period_start)s, %(period_end)s, %(source_row_key)s, %(raw_table_name)s, %(raw_id)s)
+            ON CONFLICT (source_system, metric_name, period_end, metric_rank) DO NOTHING
+            ]
+[parameters: {'source_system': 'TrendMicro', 'metric_name': 'test', 'metric_value': nan, 'metric_rank': nan, 'period_start': datetime.date(2026, 9, 25), 'period_end': datetime.date(2026, 10, 1), 'source_row_key': '10/01/2026_5', 'raw_table_name': 'raw_tm_tfa_data', 'raw_id': 46}]
+(Background on this error at: https://sqlalche.me/e/21/9h9h)
+2026-10-01 16:31:18 | INFO     | apscheduler.executors.default | Job "SchedulerService._run_source (trigger: interval[0:00:15], next run at: 2026-10-01 16:31:31 IST)" executed successfully
+2026-10-01 16:31:31 | INFO     | apscheduler.executors.default | Running job "SchedulerService._run_source (trigger: interval[0:00:15], next run at: 2026-10-01 16:31:46 IST)" (scheduled at 2026-10-01 16:31:31.668230+05:30)
+2026-10-01 16:31:31 | INFO     | app.scheduler.scheduler | Scheduled poll triggered for 'TM_TFA_data'
+2026-10-01 16:31:31 | INFO     | app.pipeline.pipeline | Pipeline run started for 'TM_TFA_data'
+2026-10-01 16:31:31 | INFO     | __main__ | Shutdown signal received.
+2026-10-01 16:31:33 | INFO     | app.extract.csv_extractor | Extracted 1 new row(s) for 'TM_TFA_data' (watermark=45 -> 46)
+2026-10-01 16:31:33 | INFO     | app.load.raw_loader | Loaded 1 row(s) into 'raw_tm_tfa_data' (batch_id=c19e6697-1f96-40e0-a227-82ecfcb16ccc)
+2026-10-01 16:31:33 | WARNING  | app.normalize.metric_normalizer | 1 row(s) in 'TM_TFA_data' had unparseable metric_value.
+2026-10-01 16:31:33 | INFO     | app.normalize.metric_normalizer | Normalized 1 metric row(s) for 'TM_TFA_data' (mode=MetricMode.LONG)
+2026-10-01 16:31:33 | ERROR    | app.pipeline.pipeline | Pipeline run FAILED for 'TM_TFA_data': (psycopg2.errors.NumericValueOutOfRange) integer out of range
+
+[SQL: 
+            INSERT INTO normalized_metrics
+                (source_system, metric_name, metric_value, metric_rank,
+                 period_start, period_end, source_row_key, raw_table_name, raw_id)
+            VALUES
+                (%(source_system)s, %(metric_name)s, %(metric_value)s, %(metric_rank)s,
+                 %(period_start)s, %(period_end)s, %(source_row_key)s, %(raw_table_name)s, %(raw_id)s)
+            ON CONFLICT (source_system, metric_name, period_end, metric_rank) DO NOTHING
+            ]
+[parameters: {'source_system': 'TrendMicro', 'metric_name': 'test', 'metric_value': nan, 'metric_rank': nan, 'period_start': datetime.date(2026, 9, 25), 'period_end': datetime.date(2026, 10, 1), 'source_row_key': '10/01/2026_5', 'raw_table_name': 'raw_tm_tfa_data', 'raw_id': 47}]
+(Background on this error at: https://sqlalche.me/e/21/9h9h)
+Traceback (most recent call last):
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.NumericValueOutOfRange: integer out of range
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\pipeline\pipeline.py", line 66, in run
+    rows_loaded = self.normalized_loader.load(normalized_df, target=self.normalize_target)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\load\normalized_loader.py", line 26, in load
+    return self._load_metrics(df)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\app\load\normalized_loader.py", line 81, in _load_metrics
+    result = conn.execute(insert_sql, row.to_dict())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1448, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 533, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1668, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1822, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1962, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2332, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\pwc\OneDrive\Documents\csv_dashboard_pipeline\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 1180, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.DataError: (psycopg2.errors.NumericValueOutOfRange) integer out of range
+
+[SQL: 
+            INSERT INTO normalized_metrics
+                (source_system, metric_name, metric_value, metric_rank,
+                 period_start, period_end, source_row_key, raw_table_name, raw_id)
+            VALUES
+                (%(source_system)s, %(metric_name)s, %(metric_value)s, %(metric_rank)s,
+                 %(period_start)s, %(period_end)s, %(source_row_key)s, %(raw_table_name)s, %(raw_id)s)
+            ON CONFLICT (source_system, metric_name, period_end, metric_rank) DO NOTHING
+            ]
+[parameters: {'source_system': 'TrendMicro', 'metric_name': 'test', 'metric_value': nan, 'metric_rank': nan, 'period_start': datetime.date(2026, 9, 25), 'period_end': datetime.date(2026, 10, 1), 'source_row_key': '10/01/2026_5', 'raw_table_name': 'raw_tm_tfa_data', 'raw_id': 47}]
+(Background on this error at: https://sqlalche.me/e/21/9h9h)
+2026-10-01 16:31:33 | INFO     | apscheduler.executors.default | Job "SchedulerService._run_source (trigger: interval[0:00:15], next run at: 2026-10-01 16:31:46 IST)" executed successfully
+2026-10-01 16:31:33 | INFO     | apscheduler.scheduler | Scheduler has been shut down
+2026-10-01 16:31:33 | INFO     | app.scheduler.scheduler | Scheduler shutdown.

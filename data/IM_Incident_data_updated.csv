@@ -1,0 +1,258 @@
+Incident_ID,Incident_Status,Analyst,Created_Date,Category,Affected_Business_Unit,Detection_SLA,Response_SLA
+INC-26542,Closed,Aditi.Salunke,07-01-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26543,Closed,Gokul4.R,07-01-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26544,Closed,Prakash2.Patel,07-01-2026,Social Engineering: Phishing,Other Corporate Functions,Pass,Pass
+INC-26545,Closed,Aditi.Salunke,07-02-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26546,Closed,Aditi.Salunke,07-02-2026,Social Engineering: Phishing,Finance Compliance and Accounts Group,Pass,Pass
+INC-26547,Closed,Aditi.Salunke,07-02-2026,Social Engineering: Phishing,Finance Compliance and Accounts Group,Pass,Pass
+INC-26548,Closed,Rajkumar.Prataparao,07-02-2026,Social Engineering: Spear-Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26549,Closed,Gurjeet.Pawar,07-02-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26550,Closed,Prakash2.Patel,07-03-2026,Compromise: Server,Reliance Foundation,Pass,Pass
+INC-26551,Closed,Akshay5.Khandekar,07-03-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26552,Closed,Akshay5.Khandekar,07-03-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26553,Closed,Akshay5.Khandekar,07-03-2026,Social Engineering: Phishing,RM Supply Trading,Pass,Pass
+INC-26554,Closed,Ashwini.Kotary,07-03-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26555,Closed,Rajkumar.Prataparao,07-03-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26556,Closed,Jani.Sayyed,07-04-2026,Policy Violation: Unauthorised Application (PUA),PetChem,Pass,Pass
+INC-26557,Closed,Esha.Samanta,07-04-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26558,Closed,Pratham.Prakash,07-04-2026,Policy Violation: Unauthorised Application (PUA),Silvassa Manufacturing Division SMD,Pass,Fail
+INC-26559,Closed,Rajkumar.Prataparao,07-04-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26560,Closed,Aniket.Gadhia,07-04-2026,Server Downtime / System Failure,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26561,Closed,Jani.Sayyed,07-05-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26562,Closed,Aniket.Gadhia,07-05-2026,Social Engineering: Business Email Compromise (BEC),Reliance Project Management Group RPMG,Pass,Pass
+INC-26563,Closed,Aniket.Gadhia,07-05-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26564,Closed,Ashwini.Kotary,07-06-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26565,Closed,Rajkumar.Prataparao,07-06-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26566,Closed,Gokul4.R,07-07-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26567,Closed,Aditi.Salunke,07-07-2026,Social Engineering: Phishing,Finance Compliance and Accounts Group,Pass,Pass
+INC-26568,Closed,Jani.Sayyed,07-07-2026,Social Engineering: Spear-Phishing,New Energy,Pass,Pass
+INC-26569,Closed,Gurjeet.Pawar,07-07-2026,Social Engineering: Phishing,RF Hospital,Pass,Pass
+INC-26570,Closed,Akshay5.Khandekar,07-07-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26571,Closed,Aditi.Salunke,07-08-2026,Social Engineering: Phishing,Finance Compliance and Accounts Group,Fail,Pass
+INC-26572,Closed,Jani.Sayyed,07-08-2026,Social Engineering: Phishing,Jio Enterprise,Pass,Pass
+INC-26573,Closed,Rajkumar.Prataparao,07-08-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26574,Closed,Anwesh.Mishra,07-08-2026,Social Engineering: Phishing,Reliance Life Sciences,Pass,Pass
+INC-26575,Closed,Aditi.Salunke,07-09-2026,Social Engineering: Phishing,HR Platform,Pass,Pass
+INC-26576,Closed,Esha.Samanta,07-09-2026,Social Engineering: Phishing,Reliance Retail,Pass,Pass
+INC-26577,Closed,Rajkumar.Prataparao,07-09-2026,Policy Violation: Unauthorised Application (PUA),Enterprise Infrastructure and Operations,Fail,Pass
+INC-26578,Closed,Aniket.Gadhia,07-09-2026,Social Engineering: Phishing,REC,Pass,Pass
+INC-26579,Closed,Gokul4.R,07-10-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26580,Closed,Pratham.Prakash,07-10-2026,Compromise: Endpoint,Reliance Retail,Pass,Pass
+INC-26581,Closed,Aniket.Gadhia,07-11-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26582,Closed,Esha.Samanta,07-11-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26583,Closed,Rajkumar.Prataparao,07-11-2026,Social Engineering: Spear-Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26584,Closed,Aniket.Gadhia,07-12-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26585,Closed,Esha.Samanta,07-12-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26586,Closed,Rajkumar.Prataparao,07-12-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26587,Closed,Esha.Samanta,07-12-2026,Compromise: Credentials,Reliance Retail,Pass,Pass
+INC-26588,Closed,Gurjeet.Pawar,7/13/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26589,Closed,Gurjeet.Pawar,7/13/2026,Social Engineering: Phishing,Finance Compliance and Accounts Group,Pass,Pass
+INC-26590,Closed,Akshay5.Khandekar,7/13/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26591,Closed,Aditi.Salunke,7/14/2026,Ransomware,JWC,Pass,Pass
+INC-26592,Closed,Gurjeet.Pawar,7/14/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26593,Closed,Gokul4.R,7/14/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26594,Closed,Aditi.Salunke,7/15/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Fail,Pass
+INC-26595,Closed,Akshay5.Khandekar,7/15/2026,Policy Violation: Unapproved Software for Work,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26596,Closed,Akshay5.Khandekar,7/15/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26597,Closed,Sara.Mujawar,7/15/2026,Social Engineering: Phishing,Corporate Communications,Pass,Pass
+INC-26598,Closed,Akshay5.Khandekar,7/15/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26599,Closed,Anwesh.Mishra,7/16/2026,Social Engineering: Phishing,Dahej Manaufacturing Division DMD,Pass,Pass
+INC-26600,Closed,Gurjeet.Pawar,7/16/2026,Social Engineering: Phishing,Reliance Retail,Pass,Pass
+INC-26601,Closed,Sara.Mujawar,7/16/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26602,Closed,Himanshu10.Yadav,7/16/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26603,Closed,Vinayak.Shendge,7/16/2026,Policy Violation: Unauthorised Application (PUA),Reliance Retail,Pass,Pass
+INC-26604,Closed,Esha.Samanta,7/17/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26605,Closed,Aniket.Gadhia,7/17/2026,Policy Violation: Unauthorised Application (PUA),Enterprise Infrastructure and Operations,Pass,Pass
+INC-26606,Closed,Esha.Samanta,7/17/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26607,Closed,Gokul4.R,7/18/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26608,Closed,Rajkumar.Prataparao,7/18/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26609,Closed,Esha.Samanta,7/19/2026,Social Engineering: Phishing,Jio Enterprise,Pass,Pass
+INC-26610,Closed,Esha.Samanta,7/19/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26611,Closed,Jani.Sayyed,7/19/2026,Policy Violation: Unauthorised Application (PUA),New Energy,Pass,Pass
+INC-26612,Closed,Esha.Samanta,7/20/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26613,Closed,Pratham.Prakash,7/20/2026,Policy Violation: Unauthorised Application (PUA),PetChem,Fail,Pass
+INC-26614,Closed,Jani.Sayyed,7/20/2026,Social Engineering: Spear-Phishing,Reliance Retail,Pass,Pass
+INC-26615,Closed,Prakash2.Patel,7/20/2026,Policy Violation: User Behaviour,Finance Compliance and Accounts Group,Pass,Pass
+INC-26616,Closed,Sara.Mujawar,7/21/2026,Social Engineering: Phishing,Reliance Life Sciences,Pass,Pass
+INC-26617,Closed,Gurjeet.Pawar,7/21/2026,Policy Violation: User Behaviour,Reliance Retail,Pass,Pass
+INC-26618,Closed,Aditi.Salunke,7/21/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Fail,Pass
+INC-26619,Closed,Bhushan16.Patil,7/21/2026,Social Engineering: Business Email Compromise (BEC),Enterprise Infrastructure and Operations,Pass,Pass
+INC-26620,Closed,Bhushan16.Patil,7/21/2026,Social Engineering: Phishing,Procurement and Contracting,Pass,Pass
+INC-26621,Closed,Vinayak.Shendge,7/22/2026,Social Engineering: Business Email Compromise (BEC),Patalganga Manufacturing Division PMD,Pass,Pass
+INC-26622,Closed,Aditi.Salunke,7/22/2026,Social Engineering: Phishing,Vision Express,Pass,Pass
+INC-26623,Closed,Prakash2.Patel,7/23/2026,Social Engineering: Phishing,New Energy,Pass,Pass
+INC-26624,Closed,Anwesh.Mishra,7/23/2026,Policy Violation: Unauthorised Application (PUA),Jio Enterprise,Pass,Pass
+INC-26625,Closed,Akshay5.Khandekar,7/23/2026,Social Engineering: Phishing,Jamnagar Manufacturing Division JMD,Pass,Pass
+INC-26626,Closed,Prakash2.Patel,7/23/2026,Policy Violation: Unauthorised Application (PUA),Enterprise Infrastructure and Operations,Pass,Pass
+INC-26627,Closed,Akshay5.Khandekar,7/23/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26629,Closed,Aditi.Salunke,7/24/2026,Social Engineering: Spear-Phishing,EP Pipeline,Pass,Pass
+INC-26630,Closed,Aniket.Gadhia,7/24/2026,Social Engineering: Phishing,Corporate HR,Pass,Pass
+INC-26631,Closed,Anwesh.Mishra,7/24/2026,Social Engineering: Phishing,Jio Enterprise,Pass,Pass
+INC-26632,Closed,Anwesh.Mishra,7/24/2026,Social Engineering: Phishing,Other Corporate Functions,Pass,Pass
+INC-26633,Closed,Aniket.Gadhia,7/25/2026,Social Engineering: Phishing,PetChem,Pass,Pass
+INC-26634,Closed,Akshay5.Khandekar,7/25/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26635,Closed,Aniket.Gadhia,7/26/2026,Malware Infection: Advanced Persistent Threat (APT),Jio Enterprise,Pass,Pass
+INC-26636,Closed,Aniket.Gadhia,7/26/2026,Social Engineering: Phishing,Corporate HR,Pass,Pass
+INC-26637,Closed,Aniket.Gadhia,7/26/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26638,Closed,Gokul4.R,7/26/2026,Social Engineering: Phishing,Other Corporate Functions,Pass,Pass
+INC-26639,Closed,Akshay5.Khandekar,7/26/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26640,Closed,Prakash2.Patel,7/26/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26641,Closed,Jani.Sayyed,7/27/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26642,Closed,Gurjeet.Pawar,7/27/2026,Social Engineering: Phishing,RM Supply Trading,Pass,Pass
+INC-26643,Closed,Gokul4.R,7/27/2026,Policy Violation: Unauthorised Application (PUA),Other Corporate Functions,Pass,Pass
+INC-26644,Closed,Akshay5.Khandekar,7/27/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26645,Closed,Prakash2.Patel,7/27/2026,Social Engineering: Phishing,PetChem,Pass,Pass
+INC-26646,Closed,Sara.Mujawar,7/27/2026,Social Engineering: Phishing,Finance Compliance and Accounts Group,Pass,Pass
+INC-26647,Closed,Rajkumar.Prataparao,7/27/2026,Social Engineering: Phishing,Jio Enterprise,Pass,Pass
+INC-26648,Closed,Rajkumar.Prataparao,7/27/2026,Social Engineering: Spear-Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26649,Closed,Jani.Sayyed,7/28/2026,Social Engineering: Spear-Phishing,Procurement and Contracting,Pass,Pass
+INC-26650,Closed,Aditi.Salunke,7/28/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26651,Closed,Anwesh.Mishra,7/28/2026,Social Engineering: Phishing,Reliance Foundation,Pass,Pass
+INC-26652,Closed,Prakash2.Patel,7/28/2026,Compromise: Supply Chain,School DAIS,Pass,Pass
+INC-26653,Closed,Akshay5.Khandekar,7/28/2026,Social Engineering: Phishing,Jio Enterprise,Pass,Pass
+INC-26654,Closed,Anwesh.Mishra,7/29/2026,Social Engineering: Phishing,Other Corporate Functions,Pass,Pass
+INC-26655,Closed,Sara.Mujawar,7/29/2026,Social Engineering: Phishing,Jio Enterprise,Pass,Pass
+INC-26656,Closed,Jani.Sayyed,7/30/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26657,Closed,Jani.Sayyed,7/30/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26658,Closed,Sara.Mujawar,7/30/2026,Social Engineering: Phishing,Digital,Pass,Pass
+INC-26659,Closed,Bhushan16.Patil,7/30/2026,Social Engineering: Phishing,Reliance Foundation,Pass,Pass
+INC-26660,Closed,Bhushan16.Patil,7/31/2026,Social Engineering: Phishing,Brands,Pass,Pass
+INC-26661,Closed,Bhushan16.Patil,08-01-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26662,Closed,Gokul4.R,08-01-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26663,Closed,Rajkumar.Prataparao,08-02-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26664,Closed,Prakash2.Patel,08-02-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26665,Closed,Akshay5.Khandekar,08-02-2026,Social Engineering: Spear-Phishing,Jio Enterprise,Pass,Pass
+INC-26666,Closed,Gurjeet.Pawar,08-03-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26667,Closed,Aditi.Salunke,08-03-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26668,Closed,Sara.Mujawar,08-03-2026,Social Engineering: Phishing,Digital,Fail,Pass
+INC-26669,Closed,Anwesh.Mishra,08-04-2026,Social Engineering: Phishing,Other Corporate Functions,Pass,Pass
+INC-26670,Closed,Aditi.Salunke,08-04-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26671,Closed,Anwesh.Mishra,08-04-2026,Social Engineering: Phishing,Jio Enterprise,Pass,Pass
+INC-26672,Closed,Sara.Mujawar,08-04-2026,Social Engineering: Phishing,Other Corporate Functions,Pass,Pass
+INC-26673,Closed,Gokul4.R,08-04-2026,Social Engineering: Phishing,Corporate HR,Pass,Pass
+INC-26674,Closed,Gurjeet.Pawar,08-05-2026,Social Engineering: Phishing,RBML,Pass,Pass
+INC-26675,Closed,Gurjeet.Pawar,08-05-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26676,Closed,Jani.Sayyed,08-05-2026,Social Engineering: Spear-Phishing,Finance Compliance and Accounts Group,Pass,Pass
+INC-26677,Closed,Anwesh.Mishra,08-05-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26678,Closed,Jani.Sayyed,08-05-2026,Compromise: Endpoint,Reliance Retail,Pass,Pass
+INC-26679,Closed,Bhushan16.Patil,08-06-2026,Policy Violation: Unauthorised Application (PUA),Reliance Retail,Pass,Pass
+INC-26680,Closed,Prakash2.Patel,08-06-2026,Social Engineering: Business Email Compromise (BEC),Jio Enterprise,Pass,Pass
+INC-26681,Closed,Prakash2.Patel,08-06-2026,Policy Violation: User Behaviour,Jio Enterprise,Pass,Pass
+INC-26682,Closed,Sara.Mujawar,08-06-2026,Social Engineering: Phishing,RM Supply Trading,Pass,Pass
+INC-26683,Closed,Aniket.Gadhia,08-08-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26684,Closed,Jani.Sayyed,08-08-2026,Social Engineering: Spear-Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26685,Closed,Rajkumar.Prataparao,08-09-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26686,Closed,Akshay5.Khandekar,08-09-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26687,Closed,Esha.Samanta,08-09-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26688,Closed,Aniket.Gadhia,08-10-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26689,Closed,Jani.Sayyed,08-10-2026,Social Engineering: Spear-Phishing,Jio Enterprise,Pass,Pass
+INC-26690,Closed,Rajkumar.Prataparao,08-10-2026,Social Engineering: Spear-Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26691,Closed,Anwesh.Mishra,08-11-2026,Social Engineering: Phishing,Procurement and Contracting,Pass,Pass
+INC-26692,Closed,Shivam.Bhoir,08-11-2026,Social Engineering: Phishing,Finance Compliance and Accounts Group,Pass,Pass
+INC-26693,Closed,Ashwini.Kotary,08-11-2026,Compromise: Server,Reliance Retail,Pass,Pass
+INC-26694,Closed,Jani.Sayyed,08-11-2026,Lateral movement,Reliance Retail,Fail,Pass
+INC-26695,Closed,Jani.Sayyed,08-11-2026,Social Engineering: Spear-Phishing,Reliance Retail,Pass,Pass
+INC-26696,Closed,Sara.Mujawar,08-11-2026,Social Engineering: Phishing,Finance Compliance and Accounts Group,Pass,Pass
+INC-26697,Closed,Prakash2.Patel,08-12-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26698,Closed,Aniket.Gadhia,8/13/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26699,Closed,Ashwini.Kotary,8/13/2026,Policy Violation: User Behaviour,Reliance Retail,Pass,Pass
+INC-26700,Closed,Anwesh.Mishra,8/14/2026,Social Engineering: Phishing,Legal,Pass,Pass
+INC-26701,Closed,Aditi.Salunke,8/14/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26703,Closed,Akshay5.Khandekar,8/15/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26704,Closed,Jani.Sayyed,8/16/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26705,Closed,Esha.Samanta,8/16/2026,Policy Violation: User Behaviour,Reliance Retail,Pass,Pass
+INC-26706,Closed,Gokul4.R,8/16/2026,Policy Violation: User Behaviour,Reliance Retail,Pass,Pass
+INC-26707,Closed,Prakash2.Patel,8/17/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26708,Closed,Anwesh.Mishra,8/17/2026,Social Engineering: Phishing,Other Corporate Functions,Pass,Pass
+INC-26709,Closed,Akshay5.Khandekar,8/17/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26710,Closed,Sara.Mujawar,8/17/2026,Social Engineering: Phishing,Enterprise Content Management,Pass,Pass
+INC-26711,Closed,Gokul4.R,8/17/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26712,Closed,Gurjeet.Pawar,8/18/2026,Policy Violation: User Behaviour,REC,Pass,Pass
+INC-26713,Closed,Aditi.Salunke,8/18/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26715,Closed,Sara.Mujawar,8/18/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26716,Closed,Aditi.Salunke,8/19/2026,Social Engineering: Phishing,Reliance Retail,Pass,Pass
+INC-26717,Closed,Shivam.Bhoir,8/19/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Fail,Pass
+INC-26718,Closed,Aniket.Gadhia,8/19/2026,Social Engineering: Phishing,PetChem,Pass,Pass
+INC-26719,Closed,Sara.Mujawar,8/19/2026,Social Engineering: Phishing,Reliance Life Sciences,Pass,Pass
+INC-26720,Closed,Prakash2.Patel,8/19/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26721,Closed,Gurjeet.Pawar,8/20/2026,Policy Violation: Unauthorised Application (PUA),Enterprise Infrastructure and Operations,Pass,Pass
+INC-26722,Closed,Ashwini.Kotary,8/20/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26723,Closed,Rajkumar.Prataparao,8/20/2026,Social Engineering: Spear-Phishing,Reliance Retail,Pass,Pass
+INC-26724,Closed,Gurjeet.Pawar,8/20/2026,Policy Violation: User Behaviour,Jamnagar Manufacturing Division JMD,Pass,Pass
+INC-26725,Closed,Aniket.Gadhia,8/20/2026,Social Engineering: Phishing,PetChem,Pass,Pass
+INC-26726,Closed,Rajkumar.Prataparao,8/21/2026,Social Engineering: Spear-Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26727,Closed,Rajkumar.Prataparao,8/21/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26728,Closed,Aniket.Gadhia,8/21/2026,Social Engineering: Phishing,Other Corporate Functions,Pass,Pass
+INC-26729,Closed,Akshay5.Khandekar,8/22/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26730,Closed,Akshay5.Khandekar,8/22/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26731,Closed,Esha.Samanta,8/23/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26732,Closed,Prakash2.Patel,8/23/2026,Social Engineering: Phishing,Jio Enterprise,Pass,Pass
+INC-26733,Closed,Esha.Samanta,8/23/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26734,Closed,Rajkumar.Prataparao,8/23/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26735,Closed,Akshay5.Khandekar,8/23/2026,Social Engineering: Phishing,Procurement and Contracting,Pass,Pass
+INC-26736,Closed,Gokul4.R,8/23/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26737,Closed,Akshay5.Khandekar,8/23/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26738,Closed,Akshay5.Khandekar,8/23/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26739,Closed,Prakash2.Patel,8/24/2026,Social Engineering: Phishing,Finance Compliance and Accounts Group,Pass,Pass
+INC-26740,Closed,Gokul4.R,8/24/2026,Social Engineering: Phishing,Jio Enterprise,Pass,Fail
+INC-26741,Closed,Gokul4.R,8/24/2026,Social Engineering: Phishing,Exploration Production,Pass,Pass
+INC-26742,Closed,Akshay5.Khandekar,8/24/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26743,Closed,Prakash2.Patel,8/26/2026,Social Engineering: Phishing,Exploration Production,Pass,Pass
+INC-26744,Closed,Bhushan16.Patil,8/26/2026,Social Engineering: Phishing,Reliance Retail,Pass,Pass
+INC-26745,Closed,Rajkumar.Prataparao,8/26/2026,Social Engineering: Spear-Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26746,Closed,Rajkumar.Prataparao,8/26/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26747,Closed,Rajkumar.Prataparao,8/26/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26748,Closed,Rajkumar.Prataparao,8/27/2026,Suspicious Network Traffic: Outbound,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26749,Closed,Gurjeet.Pawar,8/28/2026,Policy Violation: Unauthorised Application (PUA),Reliance Retail,Pass,Pass
+INC-26750,Closed,Bhushan16.Patil,8/28/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26751,Closed,Gurjeet.Pawar,8/28/2026,Policy Violation: User Behaviour,Reliance Retail,Pass,Pass
+INC-26752,Closed,Anwesh.Mishra,8/28/2026,Social Engineering: Phishing,Reliance Retail,Pass,Pass
+INC-26753,Closed,Anwesh.Mishra,8/28/2026,Social Engineering: Phishing,Other Corporate Functions,Pass,Pass
+INC-26754,Closed,Aniket.Gadhia,8/28/2026,Social Engineering: Phishing,Legal,Pass,Pass
+INC-26755,Closed,Gokul4.R,8/29/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26756,Closed,Aniket.Gadhia,8/29/2026,Social Engineering: Phishing,Jio Enterprise,Pass,Pass
+INC-26757,Closed,Rajkumar.Prataparao,8/30/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26758,Closed,Esha.Samanta,8/30/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26759,Closed,Munjabhau.Telbhare,8/30/2026,Social Engineering: Phishing,Procurement and Contracting,Pass,Pass
+INC-26760,Closed,Jani.Sayyed,8/30/2026,Social Engineering: Spear-Phishing,Reliance Project Management Group RPMG,Pass,Pass
+INC-26761,Closed,Akshay5.Khandekar,8/30/2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26762,Closed,Gokul4.R,8/31/2026,Social Engineering: Phishing,Jio Enterprise,Pass,Pass
+INC-26763,Closed,Gokul4.R,8/31/2026,Social Engineering: Phishing,PetChem,Pass,Pass
+INC-26764,Closed,Aniket.Gadhia,8/31/2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26765,Closed,Bhushan16.Patil,09-01-2026,Social Engineering: Phishing,Jio Enterprise,Pass,Pass
+INC-26766,Closed,Sara.Mujawar,09-02-2026,Social Engineering: Phishing,Ecommerce,Pass,Pass
+INC-26767,Closed,Rajkumar.Prataparao,09-02-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26768,Closed,Gurjeet.Pawar,09-02-2026,Policy Violation: User Behaviour,Reliance Retail,Pass,Pass
+INC-26769,Closed,Aditi.Salunke,09-03-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26770,Closed,Anwesh.Mishra,09-03-2026,Social Engineering: Phishing,Jio Enterprise,Pass,Pass
+INC-26771,Closed,Anwesh.Mishra,09-03-2026,Social Engineering: Phishing,Jio Enterprise,Pass,Pass
+INC-26772,Closed,Aditi.Salunke,09-03-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26773,Closed,Rajkumar.Prataparao,09-04-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26774,Closed,Sara.Mujawar,09-04-2026,Social Engineering: Phishing,JWD,Pass,Pass
+INC-26775,Closed,Munjabhau.Telbhare,09-05-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26776,Open,Munjabhau.Telbhare,09-06-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26777,Closed,Nishit.Dholakiya,09-06-2026,Data Exfiltration,Reliance Retail,Pass,Pass
+INC-26778,Closed,Jani.Sayyed,09-07-2026,Social Engineering: Phishing,Brands,Pass,Pass
+INC-26779,Closed,Vinayak.Shendge,09-07-2026,Policy Violation: User Behaviour,Reliance Retail,Pass,Pass
+INC-26780,Closed,Esha.Samanta,09-07-2026,Social Engineering: Business Email Compromise (BEC),New Energy,Pass,Pass
+INC-26781,Closed,Shivam.Bhoir,09-07-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26782,Closed,Gokul4.R,09-08-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26783,Closed,Aditi.Salunke,09-08-2026,Social Engineering: Phishing,PetChem,Pass,Pass
+INC-26784,Open,Himanshu10.Yadav,09-08-2026,Compromise: Endpoint,Dahej Manaufacturing Division DMD,Pass,Pass
+INC-26785,Closed,Gurjeet.Pawar,09-08-2026,Social Engineering: Phishing,PetChem,Pass,Pass
+INC-26787,Closed,Aniket.Gadhia,09-08-2026,Policy Violation: User Behaviour,HR Platform,Pass,Pass
+INC-26788,Closed,Prakash2.Patel,09-08-2026,Social Engineering: Phishing,Jio Enterprise,Pass,Pass
+INC-26789,Open,Nishit.Dholakiya,09-09-2026,Policy Violation: User Behaviour,Enterprise Infrastructure and Operations,Pass,Fail
+INC-26790,Closed,Gokul4.R,09-09-2026,Social Engineering: Phishing,Other Corporate Functions,Pass,Pass
+INC-26791,Closed,Prakash2.Patel,09-09-2026,Social Engineering: Phishing,Jamnagar Manufacturing Division JMD,Pass,Pass
+INC-26792,Closed,Akshay5.Khandekar,09-10-2026,Policy Violation: Unauthorised Application (PUA),Reliance Retail,Pass,Pass
+INC-26793,Closed,Prakash2.Patel,09-10-2026,Social Engineering: Phishing,Model Economic Township (MET),Pass,Pass
+INC-26794,Closed,Akshay5.Khandekar,09-11-2026,Reconnaisance / Discovery,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26795,Closed,Anwesh.Mishra,09-11-2026,Social Engineering: Phishing,Reliance Foundation,Pass,Pass
+INC-26796,Closed,Shivam.Bhoir,09-11-2026,Social Engineering: Phishing,Enterprise Infrastructure and Operations,Pass,Pass
+INC-26798,Closed,Bhushan16.Patil,09-11-2026,Policy Violation: User Behaviour,Reliance Retail,Pass,Pass
+INC-26799,Closed,Aniket.Gadhia,09-11-2026,Policy Violation: User Behaviour,Other Corporate Functions,Pass,Pass
+INC-26800,Closed,Aniket.Gadhia,09-12-2026,Social Engineering: Phishing,Reliance Life Sciences,Pass,Pass
+INC-26801,Closed,Aniket.Gadhia,09-12-2026,Policy Violation: User Behaviour,Jamnagar Manufacturing Division JMD,Pass,Pass
+INC-26802,Closed,Bhushan16.Patil,09-12-2026,Reconnaisance / Discovery,RF Hospital,Pass,Pass
+INC-26803,Closed,Aniket.Gadhia,09-12-2026,Policy Violation: Unauthorised Application (PUA),Jamnagar Manufacturing Division JMD,Pass,Fail

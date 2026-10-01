@@ -1,0 +1,29 @@
+version: "3.9"
+
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: csv_pipeline_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: pipeline_user
+      POSTGRES_PASSWORD: pipeline_pass
+      POSTGRES_DB: csv_pipeline_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: csv_pipeline_grafana
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+
+
+volumes:
+  pg_data:
